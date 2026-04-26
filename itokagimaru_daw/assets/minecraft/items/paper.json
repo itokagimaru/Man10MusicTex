@@ -1,0 +1,125 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/icons/next_b_up"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/icons/next_b_down"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/icons/next_b_left"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/icons/next_b_right"
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/icons/select"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/icons/key_board_0"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/icons/key_board_1"
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/icons/key_board_2"
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/icons/key_board_3"
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/icons/key_board_4"
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/icons/key_board_5"
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/icons/key_board_6"
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/icons/note_def"
+        }
+      },
+      {
+        "threshold": 14,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/icons/note_up"
+        }
+      },
+      {
+        "threshold": 15,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/icons/note_dw"
+        }
+      },
+      {
+        "threshold": 16,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/paper"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/paper"
+    }
+  }
+}

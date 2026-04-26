@@ -1,0 +1,107 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/items/itokagimaru_daw"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "head",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:man10/daw/items/walkman_head"
+              }
+            },
+            {
+              "when": [
+                "gui",
+                "firstperson_righthand",
+                "firstperson_lefthand",
+                "thirdperson_righthand",
+                "thirdperson_lefthand",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:man10/daw/items/walkman_hand"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/items/cassette_tape"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/items/blank_sheet_music"
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/items/written_sheet_music"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/items/cassette_workspace_item"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/items/cassette_workspace"
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/items/radio_cassette_item"
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:man10/daw/items/radio_cassette"
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/stone_hoe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/stone_hoe"
+    }
+  }
+}

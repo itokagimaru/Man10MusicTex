@@ -1,0 +1,16 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "man10/next_icon_up"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"gui": {
+			"rotation": [0, 0, 90]
+		}
+	}
+}
