@@ -1,2 +1,3 @@
-# Itokagimaru_daw_tex
-Itokagimaru_daw用のリソパのレポジトリだよ
+# Man10MusicTex
+Man10Music用のテクスチャだよ
+入れないと音が聞こえないから注意だよ
